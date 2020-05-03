@@ -3,17 +3,17 @@ _______________________________________________________________________
 ###### How to install repository 
 Clone repo: 
 ```bash
-git clone https://github.com/VladyslavHnatchenko/...
+git clone https://github.com/VladyslavHnatchenko/byte_run.git
 ```
 Go to folder: 
 ```bash
-cd ...
+cd byte_run
 ```
 _______________________________________________________________________
 ###### How run to locally:
 Go to folder: 
 ```bash
-cd ...
+cd byte_run
 ```
 To run on terminal/bash:
 ```bash
@@ -25,12 +25,10 @@ Install and activate virtualenv:
 python3 -m venv env
 source env/bin/activate
 ```
-Install all libraries: 
-```bash 
-pip install -r requirements.txt
-```
 Run locally:
 ```bash 
-python3 main.py
+python3 byte_run.py
 ```
+Original Article:
+[A Python Interpreter Written in Python](http://aosabook.org/en/500L/a-python-interpreter-written-in-python.html)
 _______________________________________________________________________
